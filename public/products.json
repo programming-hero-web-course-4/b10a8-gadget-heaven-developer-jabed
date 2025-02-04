@@ -1,0 +1,145 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Samsung Galaxy S23 Ultra",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "phones",
+      "price": 1199,
+      "description": "The latest flagship from Samsung with a powerful Snapdragon processor and advanced camera features.",
+      "Specification": ["6.8-inch Dynamic AMOLED 2X", "200MP Camera", "5000mAh Battery"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 15,
+      "product_title": "iPhone 15 Pro Max",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "iphone",
+      "price": 1299,
+      "description": "Apple's latest iPhone with A17 Bionic chip and a titanium design.",
+      "Specification": ["6.7-inch Super Retina XDR", "48MP Pro Camera", "4323mAh Battery"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 3,
+      "product_title": "MacBook Pro M2",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "macbook",
+      "price": 1999,
+      "description": "Apple's latest MacBook with M2 chip for ultimate performance and battery life.",
+      "Specification": ["14-inch Liquid Retina XDR", "M2 Pro Chip", "20-Hour Battery Life"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 5,
+      "product_title": "Apple Watch Series 9",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "smartWatch",
+      "price": 549,
+      "description": "The most advanced Apple Watch yet with new health-tracking features.",
+      "Specification": ["Always-On Retina Display", "Blood Oxygen Monitoring", "18-Hour Battery"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 6,
+      "product_title": "Sony WH-1000XM5 Headphones",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "accessories",
+      "price": 399,
+      "description": "Industry-leading noise cancellation headphones with superior sound quality.",
+      "Specification": ["40mm Drivers", "30-Hour Battery Life", "Multi-Device Connection"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 7,
+      "product_title": "Dell XPS 15",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "laptops",
+      "price": 1699,
+      "description": "A powerful and sleek laptop with an edge-to-edge display and Intel Core i9 processor.",
+      "Specification": ["15.6-inch 4K OLED", "Intel Core i9", "16GB RAM, 512GB SSD"],
+      "availability": false,
+      "rating": 4.6
+    },
+    {
+      "product_id": 8,
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "laptops",
+      "price": 1599,
+      "description": "A versatile 2-in-1 laptop with a stunning OLED display and long battery life.",
+      "Specification": ["13.5-inch OLED Touchscreen", "Intel Core i7", "16GB RAM, 1TB SSD"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 9,
+      "product_title": "ASUS ROG Zephyrus G15",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "laptops",
+      "price": 1899,
+      "description": "A high-performance gaming laptop with powerful hardware and a sleek design.",
+      "Specification": ["15.6-inch QHD 165Hz", "AMD Ryzen 9", "32GB RAM, 1TB SSD"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 10,
+      "product_title": "Lenovo ThinkPad X1 Carbon",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "laptops",
+      "price": 1799,
+      "description": "A business laptop with premium build quality, excellent keyboard, and great battery life.",
+      "Specification": ["14-inch WQHD", "Intel Core i7", "16GB RAM, 512GB SSD"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 11,
+      "product_title": "Microsoft Surface Laptop 5",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "laptops",
+      "price": 1499,
+      "description": "A sleek and lightweight laptop with a vibrant touchscreen display.",
+      "Specification": ["13.5-inch PixelSense", "Intel Core i7", "16GB RAM, 512GB SSD"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 12,
+      "product_title": "Razer Blade 16",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "laptops",
+      "price": 2499,
+      "description": "A premium gaming laptop with an ultra-fast refresh rate and powerful hardware.",
+      "Specification": ["16-inch QHD 240Hz", "Intel Core i9", "32GB RAM, 1TB SSD"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 13,
+      "product_title": "iPhone 14 Pro",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "iphone",
+      "price": 1099,
+      "description": "The previous-gen iPhone with a powerful A16 Bionic chip and ProMotion display.",
+      "Specification": ["6.1-inch Super Retina XDR", "48MP Pro Camera", "3200mAh Battery"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 14,
+      "product_title": "iPhone 13 Mini",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "iphone",
+      "price": 899,
+      "description": "A compact yet powerful iPhone with an A15 Bionic chip and dual-camera system.",
+      "Specification": ["5.4-inch Super Retina XDR", "12MP Dual Camera", "2406mAh Battery"],
+      "availability": true,
+      "rating": 4.7
+    }
+  ]

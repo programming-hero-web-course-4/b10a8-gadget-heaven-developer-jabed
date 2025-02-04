@@ -1,0 +1,68 @@
+[
+    {
+      "product_id": 7,
+      "product_title": "Dell XPS 15",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "laptops",
+      "price": 1699,
+      "description": "A powerful and sleek laptop with an edge-to-edge display and Intel Core i9 processor.",
+      "Specification": ["15.6-inch 4K OLED", "Intel Core i9", "16GB RAM, 512GB SSD"],
+      "availability": false,
+      "rating": 4.6
+    },
+    {
+      "product_id": 8,
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "laptops",
+      "price": 1599,
+      "description": "A versatile 2-in-1 laptop with a stunning OLED display and long battery life.",
+      "Specification": ["13.5-inch OLED Touchscreen", "Intel Core i7", "16GB RAM, 1TB SSD"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 9,
+      "product_title": "ASUS ROG Zephyrus G15",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "laptops",
+      "price": 1899,
+      "description": "A high-performance gaming laptop with powerful hardware and a sleek design.",
+      "Specification": ["15.6-inch QHD 165Hz", "AMD Ryzen 9", "32GB RAM, 1TB SSD"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 10,
+      "product_title": "Lenovo ThinkPad X1 Carbon",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "laptops",
+      "price": 1799,
+      "description": "A business laptop with premium build quality, excellent keyboard, and great battery life.",
+      "Specification": ["14-inch WQHD", "Intel Core i7", "16GB RAM, 512GB SSD"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 11,
+      "product_title": "Microsoft Surface Laptop 5",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "laptops",
+      "price": 1499,
+      "description": "A sleek and lightweight laptop with a vibrant touchscreen display.",
+      "Specification": ["13.5-inch PixelSense", "Intel Core i7", "16GB RAM, 512GB SSD"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 12,
+      "product_title": "Razer Blade 16",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "laptops",
+      "price": 2499,
+      "description": "A premium gaming laptop with an ultra-fast refresh rate and powerful hardware.",
+      "Specification": ["16-inch QHD 240Hz", "Intel Core i9", "32GB RAM, 1TB SSD"],
+      "availability": true,
+      "rating": 4.9
+    }
+  ]

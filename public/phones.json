@@ -1,0 +1,35 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Samsung Galaxy S23 Ultra",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "phones",
+      "price": 1199,
+      "description": "The latest flagship from Samsung with a powerful Snapdragon processor and advanced camera features.",
+      "Specification": ["6.8-inch Dynamic AMOLED 2X", "200MP Camera", "5000mAh Battery"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 2,
+      "product_title": "Google Pixel 8 Pro",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "phones",
+      "price": 999,
+      "description": "Google's newest flagship phone with AI-powered camera features and Tensor G3 chip.",
+      "Specification": ["6.7-inch LTPO OLED", "50MP Camera", "5050mAh Battery"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 3,
+      "product_title": "OnePlus 11 5G",
+      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
+      "category": "phones",
+      "price": 799,
+      "description": "A flagship killer with fast charging, Snapdragon 8 Gen 2, and Hasselblad cameras.",
+      "Specification": ["6.7-inch Fluid AMOLED", "50MP Triple Camera", "5000mAh Battery"],
+      "availability": true,
+      "rating": 4.6
+    }
+  ]
