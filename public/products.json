@@ -1,145 +1,501 @@
 [
-    {
-      "product_id": 1,
-      "product_title": "Samsung Galaxy S23 Ultra",
-      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
-      "category": "phones",
-      "price": 1199,
-      "description": "The latest flagship from Samsung with a powerful Snapdragon processor and advanced camera features.",
-      "Specification": ["6.8-inch Dynamic AMOLED 2X", "200MP Camera", "5000mAh Battery"],
-      "availability": true,
-      "rating": 4.8
-    },
-    {
-      "product_id": 15,
-      "product_title": "iPhone 15 Pro Max",
-      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
-      "category": "iphone",
-      "price": 1299,
-      "description": "Apple's latest iPhone with A17 Bionic chip and a titanium design.",
-      "Specification": ["6.7-inch Super Retina XDR", "48MP Pro Camera", "4323mAh Battery"],
-      "availability": true,
-      "rating": 4.9
-    },
-    {
-      "product_id": 3,
-      "product_title": "MacBook Pro M2",
-      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
-      "category": "macbook",
-      "price": 1999,
-      "description": "Apple's latest MacBook with M2 chip for ultimate performance and battery life.",
-      "Specification": ["14-inch Liquid Retina XDR", "M2 Pro Chip", "20-Hour Battery Life"],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "product_id": 5,
-      "product_title": "Apple Watch Series 9",
-      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
-      "category": "smartWatch",
-      "price": 549,
-      "description": "The most advanced Apple Watch yet with new health-tracking features.",
-      "Specification": ["Always-On Retina Display", "Blood Oxygen Monitoring", "18-Hour Battery"],
-      "availability": true,
-      "rating": 4.8
-    },
-    {
-      "product_id": 6,
-      "product_title": "Sony WH-1000XM5 Headphones",
-      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
-      "category": "accessories",
-      "price": 399,
-      "description": "Industry-leading noise cancellation headphones with superior sound quality.",
-      "Specification": ["40mm Drivers", "30-Hour Battery Life", "Multi-Device Connection"],
-      "availability": true,
-      "rating": 4.9
-    },
-    {
-      "product_id": 7,
-      "product_title": "Dell XPS 15",
-      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
-      "category": "laptops",
-      "price": 1699,
-      "description": "A powerful and sleek laptop with an edge-to-edge display and Intel Core i9 processor.",
-      "Specification": ["15.6-inch 4K OLED", "Intel Core i9", "16GB RAM, 512GB SSD"],
-      "availability": false,
-      "rating": 4.6
-    },
-    {
-      "product_id": 8,
-      "product_title": "HP Spectre x360",
-      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
-      "category": "laptops",
-      "price": 1599,
-      "description": "A versatile 2-in-1 laptop with a stunning OLED display and long battery life.",
-      "Specification": ["13.5-inch OLED Touchscreen", "Intel Core i7", "16GB RAM, 1TB SSD"],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "product_id": 9,
-      "product_title": "ASUS ROG Zephyrus G15",
-      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
-      "category": "laptops",
-      "price": 1899,
-      "description": "A high-performance gaming laptop with powerful hardware and a sleek design.",
-      "Specification": ["15.6-inch QHD 165Hz", "AMD Ryzen 9", "32GB RAM, 1TB SSD"],
-      "availability": true,
-      "rating": 4.8
-    },
-    {
-      "product_id": 10,
-      "product_title": "Lenovo ThinkPad X1 Carbon",
-      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
-      "category": "laptops",
-      "price": 1799,
-      "description": "A business laptop with premium build quality, excellent keyboard, and great battery life.",
-      "Specification": ["14-inch WQHD", "Intel Core i7", "16GB RAM, 512GB SSD"],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "product_id": 11,
-      "product_title": "Microsoft Surface Laptop 5",
-      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
-      "category": "laptops",
-      "price": 1499,
-      "description": "A sleek and lightweight laptop with a vibrant touchscreen display.",
-      "Specification": ["13.5-inch PixelSense", "Intel Core i7", "16GB RAM, 512GB SSD"],
-      "availability": true,
-      "rating": 4.6
-    },
-    {
-      "product_id": 12,
-      "product_title": "Razer Blade 16",
-      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
-      "category": "laptops",
-      "price": 2499,
-      "description": "A premium gaming laptop with an ultra-fast refresh rate and powerful hardware.",
-      "Specification": ["16-inch QHD 240Hz", "Intel Core i9", "32GB RAM, 1TB SSD"],
-      "availability": true,
-      "rating": 4.9
-    },
-    {
-      "product_id": 13,
-      "product_title": "iPhone 14 Pro",
-      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
-      "category": "iphone",
-      "price": 1099,
-      "description": "The previous-gen iPhone with a powerful A16 Bionic chip and ProMotion display.",
-      "Specification": ["6.1-inch Super Retina XDR", "48MP Pro Camera", "3200mAh Battery"],
-      "availability": true,
-      "rating": 4.8
-    },
-    {
-      "product_id": 14,
-      "product_title": "iPhone 13 Mini",
-      "product_image": "https://i.postimg.cc/bJdx9tJQ/laptop.jpg",
-      "category": "iphone",
-      "price": 899,
-      "description": "A compact yet powerful iPhone with an A15 Bionic chip and dual-camera system.",
-      "Specification": ["5.4-inch Super Retina XDR", "12MP Dual Camera", "2406mAh Battery"],
-      "availability": true,
-      "rating": 4.7
-    }
-  ]
+  {
+    "product_id": 1,
+    "product_title": "iPhone 15 Pro",
+    "product_image": "https://i.postimg.cc/nc5b3zD4/felix-fischer-1m0-BBZpe-SUs-unsplash.jpg",
+    "category": "iphones",
+    "price": 1199,
+    "description": "Latest iPhone with A17 Bionic chip and ProMotion display.",
+    "Specification": ["6.1-inch OLED", "A17 Bionic", "128GB"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 2,
+    "product_title": "iPhone 14",
+    "product_image": "https://i.postimg.cc/sxgdNGmc/james-yarema-ZYVr-M9ca-Rp-U-unsplash.jpg",
+    "category": "iphones",
+    "price": 999,
+    "description": "Powerful iPhone with advanced camera features.",
+    "Specification": ["6.1-inch OLED", "A15 Bionic", "256GB"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 3,
+    "product_title": "iPhone 13 Mini",
+    "product_image": "https://i.postimg.cc/ncMfK7CV/marina-carvalho-t-NPu-W0-PKWSE-unsplash.jpg",
+    "category": "iphones",
+    "price": 699,
+    "description": "Compact iPhone with premium features.",
+    "Specification": ["5.4-inch OLED", "A15 Bionic", "128GB"],
+    "availability": false,
+    "rating": 4.4
+  },
+  {
+    "product_id": 4,
+    "product_title": "iPhone 14 Pro Max",
+    "product_image": "https://i.postimg.cc/Pxhk1R80/mockup-free-op-Ae-Flgy-Qqs-unsplash.jpg",
+    "category": "iphones",
+    "price": 1299,
+    "description": "Top-tier iPhone with Dynamic Island and Pro camera system.",
+    "Specification": ["6.7-inch OLED", "A16 Bionic", "512GB"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 5,
+    "product_title": "iPhone 13",
+    "product_image": "https://i.postimg.cc/FRZXpVyz/sahej-brar-jgfh5n-YYCr-Q-unsplash.jpg",
+    "category": "iphones",
+    "price": 799,
+    "description": "Affordable iPhone with great performance.",
+    "Specification": ["6.1-inch OLED", "A15 Bionic", "128GB"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 6,
+    "product_title": "iPhone SE (2022)",
+    "product_image": "https://i.postimg.cc/Wp5PJSpf/taro-ohtani-Rm1s-YMLXsp4-unsplash.jpg",
+    "category": "iphones",
+    "price": 429,
+    "description": "Budget-friendly iPhone with Touch ID.",
+    "Specification": ["4.7-inch Retina", "A15 Bionic", "64GB"],
+    "availability": false,
+    "rating": 4.3
+  },
+  {
+    "product_id": 7,
+    "product_title": "iPhone 14 Plus",
+    "product_image": "https://i.postimg.cc/QCYGGNnr/techietech-tech-ie8-A4-EZikl-Q-unsplash.jpg",
+    "category": "iphones",
+    "price": 1099,
+    "description": "Large screen iPhone with powerful battery.",
+    "Specification": ["6.7-inch OLED", "A15 Bionic", "256GB"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 8,
+    "product_title": "iPhone 15",
+    "product_image": "https://i.postimg.cc/Gmy0VCFZ/thai-nguyen-At-YWWis5-ZDM-unsplash.jpg",
+    "category": "iphones",
+    "price": 1099,
+    "description": "Sleek and fast with USB-C support.",
+    "Specification": ["6.1-inch OLED", "A17 Bionic", "128GB"],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": 9,
+    "product_title": "iPhone 14 Pro",
+    "product_image": "https://i.postimg.cc/Dz1TJTmq/thai-nguyen-K4ro-MA5-Bz-S0-unsplash.jpg",
+    "category": "iphones",
+    "price": 1199,
+    "description": "Pro features and stunning display.",
+    "Specification": ["6.1-inch OLED", "A16 Bionic", "256GB"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 10,
+    "product_title": "iPhone 12",
+    "product_image": "https://i.postimg.cc/nc5b3zD4/felix-fischer-1m0-BBZpe-SUs-unsplash.jpg",
+    "category": "iphones",
+    "price": 599,
+    "description": "Still powerful with 5G capabilities.",
+    "Specification": ["6.1-inch OLED", "A14 Bionic", "64GB"],
+    "availability": false,
+    "rating": 4.2
+  },
+  {
+    "product_id": 11,
+    "product_title": "MacBook Pro 16",
+    "product_image": "https://i.postimg.cc/XJNzjS5N/dell-y-Nv-Vn-Pcur-D8-unsplash.jpg",
+    "category": "laptops",
+    "price": 2499,
+    "description": "Apple laptop with M2 Max chip and Liquid Retina display.",
+    "Specification": ["16-inch Retina", "M2 Max", "32GB RAM, 1TB SSD"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 12,
+    "product_title": "Dell XPS 15",
+    "product_image": "https://i.postimg.cc/pT01yGQf/james-yarema-NOUOOMGq-TAM-unsplash.jpg",
+    "category": "laptops",
+    "price": 1699,
+    "description": "A powerful and sleek laptop with an edge-to-edge display and Intel Core i9 processor.",
+    "Specification": [
+      "15.6-inch 4K OLED",
+      "Intel Core i9",
+      "16GB RAM, 512GB SSD"
+    ],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": 13,
+    "product_title": "HP Spectre x360",
+    "product_image": "https://i.postimg.cc/90rg9d1v/mika-baumeister-7-KLp-KCG05v-I-unsplash.jpg",
+    "category": "laptops",
+    "price": 1499,
+    "description": "Convertible laptop with touchscreen and elegant design.",
+    "Specification": ["13.5-inch OLED", "Intel i7", "16GB RAM, 1TB SSD"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 14,
+    "product_title": "MacBook Air M2",
+    "product_image": "https://i.postimg.cc/k5vHPXBh/pexels-andrew-2312369.jpg",
+    "category": "laptops",
+    "price": 1099,
+    "description": "Lightweight, fast, and silent with long battery life.",
+    "Specification": ["13.6-inch Retina", "M2 Chip", "8GB RAM, 512GB SSD"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 15,
+    "product_title": "ASUS ZenBook Duo",
+    "product_image": "https://i.postimg.cc/9FsKGn61/pexels-life-of-pix-7974.jpg",
+    "category": "laptops",
+    "price": 1799,
+    "description": "Dual screen productivity powerhouse.",
+    "Specification": ["14-inch FHD", "Intel Core i9", "16GB RAM, 1TB SSD"],
+    "availability": false,
+    "rating": 4.3
+  },
+  {
+    "product_id": 16,
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "https://i.postimg.cc/vH4CxsNc/pexels-monoar-rahman-22660-109371.jpg",
+    "category": "laptops",
+    "price": 1399,
+    "description": "Premium business laptop with legendary keyboard.",
+    "Specification": ["14-inch FHD", "Intel i7", "16GB RAM, 512GB SSD"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 17,
+    "product_title": "Razer Blade 15",
+    "product_image": "https://i.postimg.cc/pL87kBxv/pexels-morningtrain-18105.jpg",
+    "category": "laptops",
+    "price": 2199,
+    "description": "Gaming beast with RTX graphics and high refresh rate display.",
+    "Specification": ["15.6-inch QHD", "Intel i9", "32GB RAM, 1TB SSD"],
+    "availability": false,
+    "rating": 4.7
+  },
+  {
+    "product_id": 18,
+    "product_title": "Microsoft Surface Laptop 5",
+    "product_image": "https://i.postimg.cc/s2rLLZDh/pexels-natri-129208.jpg",
+    "category": "laptops",
+    "price": 1299,
+    "description": "Sleek and professional with vibrant touchscreen.",
+    "Specification": [
+      "13.5-inch PixelSense",
+      "Intel i5",
+      "16GB RAM, 512GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 19,
+    "product_title": "Acer Swift 3",
+    "product_image": "https://i.postimg.cc/nrgRGXPM/pragyan-goswami-Gzi-KHv-3l-Vc-unsplash.jpg",
+    "category": "laptops",
+    "price": 749,
+    "description": "Budget-friendly and efficient ultrabook.",
+    "Specification": ["14-inch FHD", "Intel i5", "8GB RAM, 256GB SSD"],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": 20,
+    "product_title": "LG Gram 17",
+    "product_image": "https://i.postimg.cc/XNzzbPY3/rahul-chakraborty-O7t-Ty-b-Z9as-unsplash.jpg",
+    "category": "laptops",
+    "price": 1599,
+    "description": "Ultra-light with a massive 17-inch screen.",
+    "Specification": ["17-inch WQXGA", "Intel i7", "16GB RAM, 1TB SSD"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 21,
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://i.postimg.cc/WpxcnzrM/pexels-anthony-derosa-39577-236915.jpg",
+    "category": "watches",
+    "price": 399,
+    "description": "Advanced health tracking and always-on display.",
+    "Specification": ["41mm", "Heart Rate & ECG", "watchOS 10"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 22,
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://i.postimg.cc/MpmkqYLD/pexels-jatin-anand-33853-125779.jpg",
+    "category": "watches",
+    "price": 349,
+    "description": "Wear OS smart watch with fitness tracking.",
+    "Specification": ["44mm", "Wear OS", "AMOLED Display"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 23,
+    "product_title": "Fitbit Versa 4",
+    "product_image": "https://i.postimg.cc/R0SkFH5z/pexels-philip-lindvall-300724-1120275.jpg",
+    "category": "watches",
+    "price": 229,
+    "description": "Affordable fitness tracker with smart features.",
+    "Specification": [
+      "Fitness & Sleep Tracker",
+      "Water Resistant",
+      "6 Days Battery"
+    ],
+    "availability": false,
+    "rating": 4.2
+  },
+  {
+    "product_id": 24,
+    "product_title": "Garmin Venu 2",
+    "product_image": "https://i.postimg.cc/j59mZ3Ws/pexels-pixabay-277390.jpg",
+    "category": "watches",
+    "price": 399,
+    "description": "Premium fitness GPS smart watch.",
+    "Specification": [
+      "AMOLED Display",
+      "Built-in GPS",
+      "Advanced Health Tracking"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 25,
+    "product_title": "Amazfit GTR 4",
+    "product_image": "https://i.postimg.cc/XNr0ddZj/pexels-pixabay-364822.jpg",
+    "category": "watches",
+    "price": 199,
+    "description": "Stylish design with great battery life.",
+    "Specification": ["1.43-inch AMOLED", "Zepp OS", "Bluetooth Calls"],
+    "availability": false,
+    "rating": 4.3
+  },
+  {
+    "product_id": 26,
+    "product_title": "Huawei Watch GT 3",
+    "product_image": "https://i.postimg.cc/Kz4C7h8q/pexels-tdcat-437037.jpg",
+    "category": "watches",
+    "price": 249,
+    "description": "Elegant smartwatch with health tracking.",
+    "Specification": ["1.43-inch AMOLED", "SpO2 Monitor", "2-week Battery"],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 27,
+    "product_title": "OnePlus Watch 2",
+    "product_image": "https://i.postimg.cc/y8HqMGLx/pexels-yugdas-manandhar-1078164-2155319.jpg",
+    "category": "watches",
+    "price": 299,
+    "description": "Smooth performance with solid build quality.",
+    "Specification": [
+      "1.43-inch AMOLED",
+      "Dual Engine Architecture",
+      "100+ Sports Modes"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 28,
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://i.postimg.cc/CMkm3xXC/Motorola-Edge-40-Pro-featured-image-packshot-review.jpg",
+    "category": "mobiles",
+    "price": 1199,
+    "description": "Premium Android phone with 200MP camera.",
+    "Specification": [
+      "6.8-inch AMOLED",
+      "Snapdragon 8 Gen 2",
+      "12GB RAM, 512GB"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 29,
+    "product_title": "Google Pixel 8 Pro",
+    "product_image": "https://i.postimg.cc/MGL9SMz5/pexels-arunbabuthomas-1156684.jpg",
+    "category": "mobiles",
+    "price": 999,
+    "description": "Google's best camera and AI-powered phone.",
+    "Specification": ["6.7-inch OLED", "Tensor G3", "12GB RAM, 256GB"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 30,
+    "product_title": "OnePlus 11",
+    "product_image": "https://i.postimg.cc/YqNDWCx2/pexels-asphotograpy-230544.jpg",
+    "category": "mobiles",
+    "price": 699,
+    "description": "Fast, fluid, and futuristic design.",
+    "Specification": [
+      "6.7-inch AMOLED",
+      "Snapdragon 8 Gen 2",
+      "16GB RAM, 256GB"
+    ],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": 31,
+    "product_title": "Xiaomi 13 Pro",
+    "product_image": "https://i.postimg.cc/QCQm1f1Y/pexels-essow-k-251295-1042143.jpg",
+    "category": "mobiles",
+    "price": 899,
+    "description": "Flagship killer with Leica cameras.",
+    "Specification": [
+      "6.73-inch AMOLED",
+      "Snapdragon 8 Gen 2",
+      "12GB RAM, 512GB"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 32,
+    "product_title": "Nothing Phone (2)",
+    "product_image": "https://i.postimg.cc/vHy3bdwJ/pexels-fotios-photos-1092644.jpg",
+    "category": "mobiles",
+    "price": 599,
+    "description": "Unique design with glyph lights.",
+    "Specification": [
+      "6.7-inch OLED",
+      "Snapdragon 8+ Gen 1",
+      "12GB RAM, 256GB"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 33,
+    "product_title": "Motorola Edge 40",
+    "product_image": "https://i.postimg.cc/htpC2ZwH/pexels-fotios-photos-1290515.jpg",
+    "category": "mobiles",
+    "price": 549,
+    "description": "Sleek design with fast charging.",
+    "Specification": ["6.55-inch pOLED", "Dimensity 8020", "8GB RAM, 256GB"],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": 34,
+    "product_title": "Realme GT Neo 5",
+    "product_image": "https://i.postimg.cc/wBMwZcY3/pexels-hammad-khalid-155549-1786433.jpg",
+    "category": "mobiles",
+    "price": 499,
+    "description": "Super fast charging and gaming-ready.",
+    "Specification": [
+      "6.7-inch AMOLED",
+      "Snapdragon 8+ Gen 1",
+      "16GB RAM, 256GB"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 35,
+    "product_title": "Infinix Zero Ultra",
+    "product_image": "https://i.postimg.cc/C1fmLh1g/pexels-luckysam-47261.jpg",
+    "category": "mobiles",
+    "price": 399,
+    "description": "Budget flagship with 180W charging.",
+    "Specification": ["6.8-inch AMOLED", "Dimensity 920", "8GB RAM, 256GB"],
+    "availability": false,
+    "rating": 4.2
+  },
+  {
+    "product_id": 36,
+    "product_title": "iQOO 11",
+    "product_image": "https://i.postimg.cc/Wb7S4f2h/pexels-nikitapishchugin-31647306.jpg",
+    "category": "mobiles",
+    "price": 649,
+    "description": "Performance monster with V2 chip.",
+    "Specification": [
+      "6.78-inch AMOLED",
+      "Snapdragon 8 Gen 2",
+      "16GB RAM, 256GB"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 37,
+    "product_title": "Vivo V27 Pro",
+    "product_image": "https://i.postimg.cc/XYVHc62f/pexels-pixabay-248526.jpg",
+    "category": "mobiles",
+    "price": 459,
+    "description": "Color-changing back and solid selfies.",
+    "Specification": ["6.78-inch AMOLED", "Dimensity 8200", "12GB RAM, 256GB"],
+    "availability": false,
+    "rating": 4.3
+  },
+  {
+    "product_id": 38,
+    "product_title": "Tecno Phantom V Flip",
+    "product_image": "https://i.postimg.cc/JhsQPrjk/pexels-rubaitulazad-16149966.jpg",
+    "category": "mobiles",
+    "price": 699,
+    "description": "Affordable foldable with premium features.",
+    "Specification": ["6.9-inch AMOLED", "Dimensity 8050", "8GB RAM, 256GB"],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": 39,
+    "product_title": "POCO F5 Pro",
+    "product_image": "https://i.postimg.cc/BQfwbKHw/pexels-sound-on-3756879-1.jpg",
+    "category": "mobiles",
+    "price": 579,
+    "description": "Beast for gaming with high refresh rate.",
+    "Specification": [
+      "6.67-inch AMOLED",
+      "Snapdragon 8+ Gen 1",
+      "12GB RAM, 256GB"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 40,
+    "product_title": "Lava Agni 2",
+    "product_image": "https://i.postimg.cc/52NgQq0p/pexels-zeleboba-27598326.jpg",
+    "category": "mobiles",
+    "price": 229,
+    "description": "Affordable Indian 5G phone.",
+    "Specification": ["6.5-inch AMOLED", "Dimensity 7050", "8GB RAM, 128GB"],
+    "availability": true,
+    "rating": 4.1
+  },
+  {
+    "product_id": 41,
+    "product_title": "iPhone 13",
+    "product_image": "https://i.postimg.cc/0jRZzTMJ/Realme-GT-Neo-5.jpg",
+    "category": "mobiles",
+    "price": 799,
+    "description": "Balanced performance with iOS smoothness.",
+    "Specification": ["6.1-inch OLED", "A15 Bionic", "128GB"],
+    "availability": true,
+    "rating": 4.7
+  }
+]

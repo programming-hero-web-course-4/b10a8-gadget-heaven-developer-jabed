@@ -1,17 +1,12 @@
-import { useLoaderData, useParams } from "react-router";
-import {
-  addToStoredCart,
-  addToStoredWish,
-  getStoredCart,  // Assuming you have a method to get the cart items
-} from "../Dashboard/Card&WishListStore/AddToCart";
+import { useLoaderData, useParams } from "react-router-dom";
 import { Bounce, toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Details = () => {
   const { product_id } = useParams();
-  const id = Number(product_id);
-
   const data = useLoaderData();
-  const product = data.find((p) => p.product_id === id);
+
+  const product = data.find((p) => String(p.product_id) === product_id);
 
   if (!product) {
     return (
@@ -31,90 +26,97 @@ const Details = () => {
     rating,
   } = product;
 
-  const handleAddCart = (id) => {
-    addToStoredCart(id);
-    toast.success("🦄 Wow You Added the Product to Cart", {
-      position: "top-center",
-      autoClose: 2000,
-      hideProgressBar: false,
-      closeOnClick: false,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "light",
-      transition: Bounce,
-    });
+  // ✅ LocalStorage Cart Handler
+  const handleAddCart = () => {
+    const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
+    const exists = storedCart.find(
+      (item) => item.product_id === product.product_id
+    );
+    if (!exists) {
+      storedCart.push(product);
+      localStorage.setItem("cart", JSON.stringify(storedCart));
+      toast.success("🛒 Added to cart!", {
+        position: "top-center",
+        autoClose: 2000,
+        transition: Bounce,
+      });
+    } else {
+      toast.info("🛒 Already in cart!");
+    }
   };
 
-  const handleAddWish = (id) => {
-    addToStoredWish(id);
-    toast.success("🌟 Item added to your wishlist!", {
-      position: "top-center",
-      autoClose: 2000,
-      hideProgressBar: false,
-      closeOnClick: false,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "light",
-      transition: Bounce,
-    });
+  // ✅ LocalStorage Wishlist Handler
+  const handleAddWish = () => {
+    const storedWish = JSON.parse(localStorage.getItem("wishlist")) || [];
+    const exists = storedWish.find(
+      (item) => item.product_id === product.product_id
+    );
+    if (!exists) {
+      storedWish.push(product);
+      localStorage.setItem("wishlist", JSON.stringify(storedWish));
+      toast.success("❤️ Added to wishlist!", {
+        position: "top-center",
+        autoClose: 2000,
+        transition: Bounce,
+      });
+    } else {
+      toast.info("❤️ Already in wishlist!");
+    }
   };
-
-
 
   return (
     <div>
-      <div className="flex flex-col justify-center items-center gap-2 bg-[#9538E2] p-7 pb-36">
-        <h1 className="font-bold text-center text-2xl text-white">Product Details</h1>
-        <p className="font-bold text-center text-white">
-          Explore the latest gadgets that will take your experience to the next level. From smart devices to 
-          the coolest accessories, we have it all!
+      {/* Header */}
+      <div className="flex flex-col justify-center items-center gap-2 bg-purple-700 p-7 pb-36">
+        <h1 className="font-bold text-center text-2xl text-white">
+          Product Details
+        </h1>
+        <p className="font-bold text-center text-white max-w-2xl">
+          Explore the latest gadgets that will take your experience to the next
+          level.
         </p>
       </div>
 
-      {/* Cart Section */}
-     
-      {/* Product Details */}
-      <div className="p-5 flex justify-center items-center gap-5 w-[70%] mx-auto bg-slate-200 rounded-2xl -translate-y-[40px]  lg:-translate-y-[100px]">
-        <div className="flex flex-col items-center md:flex-row gap-6 ">
+      {/* Product */}
+      <div className="p-5 flex justify-center items-center gap-5 w-[90%] lg:w-[70%] mx-auto bg-slate-200 rounded-2xl -translate-y-[40px] lg:-translate-y-[100px] shadow-lg">
+        <div className="flex flex-col items-center md:flex-row gap-6">
           <img
             src={product_image}
-            alt={product_title}
-            className="w-[30%]  object-cover p-4 bg-white  rounded-md"
+            alt={product_title || "Product image"}
+            className="w-[300px] h-[250px] object-cover p-4 bg-white rounded-md"
           />
-          <div>
+
+          <div className="space-y-3">
             <h1 className="text-xl font-bold">{product_title}</h1>
-            <h2 className="text-lg  font-bold mt-2">Price: ${price}</h2>
+            <h2 className="text-lg font-bold">Price: ${price}</h2>
             <p
-              className={`font-semibold ${
-                availability
-                  ? "text-green-500 bg-[#9538E2] rounded-full w-[20%] text-center p-2 font-bold"
-                  : "text-red-500"
-              }`}
+              className={`font-semibold w-fit px-3 py-1 rounded-full ${
+                availability ? "bg-green-500" : "bg-red-500"
+              } text-white`}
             >
               {availability ? "In Stock" : "Out of Stock"}
             </p>
-            <p className="mt-2">{description}</p>
+            <p>{description}</p>
+
             <h3 className="font-semibold mt-4">Specifications:</h3>
             <ul className="list-disc list-inside">
-              {Specification?.map((spec, index) => (
+              {Specification.map((spec, index) => (
                 <li key={index}>{spec}</li>
               ))}
             </ul>
+
             <h3 className="font-semibold mt-4">Rating:</h3>
             <p>{rating}</p>
+
             <div className="flex items-center gap-4 mt-4">
               <button
-                onClick={() => handleAddCart(product_id)}
+                onClick={handleAddCart}
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
                 Add to Cart
               </button>
-              <span
-                onClick={() => handleAddWish(product_id)}
-                className="cursor-pointer"
-              >
+
+              <span onClick={handleAddWish} className="cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -135,19 +137,7 @@ const Details = () => {
         </div>
       </div>
 
-      <ToastContainer
-        position="top-center"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick={false}
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="light"
-        transition={Bounce}
-      />
+      <ToastContainer />
     </div>
   );
 };

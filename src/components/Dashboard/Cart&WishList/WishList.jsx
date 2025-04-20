@@ -1,18 +1,15 @@
-import { useEffect, useState } from "react";
-import { getStoredWish, removeFromStoredWish } from "../Card&WishListStore/AddToCart";
+import { useLoaderData } from "react-router-dom";
+import { useState } from "react";
 import { ToastContainer, toast, Bounce } from "react-toastify";
 
 const WishCart = () => {
-  const [wishList, setWishList] = useState([]);
-
-  useEffect(() => {
-    setWishList(getStoredWish());
-  }, []);
+  const initialWishList = useLoaderData();
+  const [wishList, setWishList] = useState(initialWishList);
 
   const removeFromWishList = (id) => {
-    const updatedWishList = wishList.filter((item) => item.product_id !== id);
-    setWishList(updatedWishList);
-    removeFromStoredWish(id);
+    const updated = wishList.filter((item) => item.product_id !== id);
+    setWishList(updated);
+    localStorage.setItem("wishlist", JSON.stringify(updated)); // Update localStorage
     toast.success("Removed from wishlist!");
   };
 
@@ -31,20 +28,18 @@ const WishCart = () => {
             >
               <div className="flex gap-6">
                 <img
-                  src={item.product_image || 'default-image.jpg'}  // Fallback image if missing
-                  alt={item.product_title || 'No Title'}  // Fallback alt text
+                  src={item.product_image || "default-image.jpg"}
+                  alt={item.product_title || "No Title"}
                   className="w-20 h-20 object-cover"
                 />
                 <div className="flex flex-col">
-                  <h2 className="text-lg font-bold mt-2 grow">
-                    {item.product_title || 'No Title'}  
+                  <h2 className="text-lg font-bold mt-2">
+                    {item.product_title}
                   </h2>
                   <p className="text-sm text-gray-500 font-bold mt-1">
-                    {item.description || 'No Description'}  
+                    {item.description}
                   </p>
-                  <p className="text-gray-700 font-bold mt-1">
-                    ${item.price || '0.00'}  
-                  </p>
+                  <p className="text-gray-700 font-bold mt-1">${item.price}</p>
                 </div>
               </div>
               <button
